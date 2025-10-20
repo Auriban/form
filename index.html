@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <article>
+                <form id="form1" class="flexi mb50" action="correo@gmail.com" target="_blank">
+                    <div class="col-12">
+                        <h2> Registrarse en el club</h2>
+                    </div>
+                    <div class="col-6 p10 mb10">
+                        <label>Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                        <label>Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos">
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                        <label>Edad</label>
+                        <input type="number" name="edad" id="edad">
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                        <label>Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                        <label>Teléfono</label>
+                        <input type="number" name="telf" id="telf">
+                    </div>
+
+                    <div class="col-6">
+                        <label>Club:</label>
+                        <select id="club" name="club">
+                            <option value="si">Soy parte del club</option>
+                            <option value="no">No soy parte del club</option>
+                        </select>
+
+                        
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                            <label>Sexo:</label>
+
+                                  <input type="radio"checked >
+                                  <label for="peque">Mujer</label>								
+
+                                  <input type="radio">
+                                  <label for="mediana">Hombre</label>									
+
+                                
+                    </div>
+
+                    <div class="col-6 p10 mb10">
+                        <label>Comentarios</label>
+                        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                    </div>
+
+                    <input class="btn1" type="submit" value="ENVIAR">
+
+
+                </form>
+
+                <form class="flexi" action="correo@gmail.com" target="_blank" id="form2">
+                    <h1 class="col-12">Registrar el robo de la bicicleta</h1>
+                    <div class="col-6 p10">
+                        <label>Fecha:</label>
+                        <input type="date" name="data" id="data" placeholder="Fecha">
+                    </div>
+                    <div class="col-6 p10">
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora">
+                    </div>
+
+                    <div class="col-6 p10">
+                        <label>Color:</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+
+                    <div class="col-6 p10">
+                        <label for="volumen">Precio:</label>
+                        <input type="range" id="volumen" name="volumen" min="0" max="100">
+                    </div>
+
+                    <div class="col-12 p10">
+
+                    <fieldset class="flexi mb20">
+                        <legend class="mb50">Tipo de bicicleta:</legend>
+
+                        <div class="col-6 p10">
+                            <label>Urbana:</label>
+                            <select class="mb10" id="Bicicleta Clásica" name="Bicicleta Clásica">
+                                <option>Bicicleta Clásica</option>
+                                <option>Bicicleta Plegable</option>
+                                <option>Bicicleta Eléctrica</option>
+                                <option>Bicicleta Commuter</option>                            
+                            </select>
+                        </div>
+
+                        <div class="col-6 p10">
+                            <label>Montaña:</label>
+                            <select class="mb10" id="Bicicleta Clásica" name="Bicicleta Clásica">
+                                <option>Bicicleta de tipo Sport</option>
+                                <option>Bicicleta de tipo Trail o Hard Tail</option>
+                                <option>Bicicleta para XC o Cross Country</option>
+                        
+                            </select>
+                        </div>
+
+                        <div class="col-12 p10 mb20">
+                            <label>Carreras:</label>
+                            <select class="mb10" id="Bicicleta Clásica" name="Bicicleta Clásica">
+                                <option>Bicicleta Gran Fondo</option>
+                                <option>Bicicleta Racing</option>
+                                <option>Bicicleta Aero</option>
+                        
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    </div>
+
+                    <div class="col-12 mb20">
+                        <label class="mb50">Accesorios:</label>
+                        <input type="checkbox"  >
+                        <label for="Ruedines">Ruedines</label>
+                        <input type="checkbox"  >
+                        <label for="Hinchadores">Hinchadores</label>
+                        <input type="checkbox"  >
+                        <label for="Rodillos">Rodillos</label>
+                        <input type="checkbox"  >
+                        <label for="Bomba de aire">Bomba de aire</label>     
+                        <input type="checkbox"  >
+                        <label for="Alforja">Alforja</label>
+                        <input type="checkbox"  >
+                        <label for="Silla portabebés">Silla portabebés</label>                                                         
+                    </div>
+
+                    
+                    <input class="btn1" type="submit" value="ENVIAR">
+                </form>
+            </article>
+        </section>
+    </div>
+    
+</body>
+</html>
